@@ -1,0 +1,20 @@
+export const avatars = {
+    user01a: require('./user_01_a.png'),
+    user01b: require('./user_01_b.png'),
+    user01c: require('./user_01_c.png'),
+    user02a: require('./user_02_a.png'),
+    user02b: require('./user_02_b.png'),
+    user02c: require('./user_02_c.png'),
+    user03a: require('./user_03_a.png'),
+    user03b: require('./user_03_b.png'),
+    user03c: require('./user_03_c.png'),
+    user05a: require('./user_05_a.png'),
+    user05b: require('./user_05_b.png'),
+    user05c: require('./user_05_c.png'),
+    user06a: require('./user_06_a.png'),
+    user06b: require('./user_06_b.png'),
+    user06c: require('./user_06_c.png'),
+    user07a: require('./user_07_a.png'),
+    user07b: require('./user_07_b.png'),
+    user07c: require('./user_07_c.png')
+};

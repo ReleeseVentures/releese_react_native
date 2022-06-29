@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Releese",
+    "slug": "releese",
+    "version": "1.0.0",
+    "privacy": "public",
+    "description": "App that helps you connect with people that share problems like you.",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": [
+      "@react-native-firebase/app"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/Logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#34d5eb"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 5000
+    },
+    "assetBundlePatterns": [
+      "assets/**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.releese",
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "android": {
+      "package": "com.releese",
+      "googleServicesFile": "./GoogleService-Info.plist"
+    }
+  }
+}
